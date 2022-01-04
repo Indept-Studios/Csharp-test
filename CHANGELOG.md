@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Indept-Studios/Csharp-test/compare/v1.0.0...v1.1.0) (2022-01-04)
+
+
+### Features
+
+* rndletters2 ([e28e673](https://github.com/Indept-Studios/Csharp-test/commit/e28e673e695ec69ba786e2239a0833f2764a60b6))
+
 # 1.0.0 (2022-01-04)
 
 
