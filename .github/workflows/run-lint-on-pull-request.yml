@@ -21,4 +21,4 @@ jobs:
         run: dotnet tool install -g dotnet-format
  
       - name: Run lint
-        run: dotnet format ./SolutionDir --verify-no-changes --verbosity diagnostic
+        run: dotnet format ./WorkerService1 --verify-no-changes --verbosity diagnostic
