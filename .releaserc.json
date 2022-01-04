@@ -15,9 +15,9 @@
         {
           "assets": [
             {
-              "path": "WorkerService1.zip",
-              "label": "WorkerService1-${nextRelease.gitTag}.zip",
-              "name": "WorkerService1-${nextRelease.gitTag}.zip"
+              "path": "Project.zip",
+              "label": "Project-${nextRelease.gitTag}.zip",
+              "name": "Project-${nextRelease.gitTag}.zip"
             }
           ]
         }

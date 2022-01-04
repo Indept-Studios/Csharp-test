@@ -40,10 +40,10 @@ jobs:
         run: npx semantic-release --branches main --dry-run
  
       - name: Publish WorkerService1
-        run: dotnet publish ./WorkerService1/WorkerService1 -p:Version=${{ env.RELEASE_VERSION }} -o WorkerService1
+        run: dotnet publish ./WorkerService1/WorkerService1 -p:Version=${{ env.RELEASE_VERSION }} -o Project
  
-      - name: ZIP WorkerService1 directory
-        run: zip -r WorkerService1.zip WorkerService1
+      - name: ZIP Project directory
+        run: zip -r Project.zip Project
  
       - name: Release
         env:
