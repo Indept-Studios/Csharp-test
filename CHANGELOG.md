@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Indept-Studios/Csharp-test/compare/v1.1.0...v1.2.0) (2022-01-04)
+
+
+### Features
+
+* neuer Text ([ca17254](https://github.com/Indept-Studios/Csharp-test/commit/ca1725418df738d9c163bf28102dbed1dda6fe3b))
+
 # [1.1.0](https://github.com/Indept-Studios/Csharp-test/compare/v1.0.0...v1.1.0) (2022-01-04)
 
 
