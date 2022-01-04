@@ -1,0 +1,24 @@
+name: Run unit tests on pull request
+ 
+on: pull_request
+ 
+jobs:
+  run-unit-tests-on-pull-request:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+ 
+      - name: Setup .Net
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+ 
+      - name: Install dependencies
+        run: dotnet restore ./WorkerService1
+ 
+      - name: Run unit tests
+        run: dotnet test ./WorkerService1
