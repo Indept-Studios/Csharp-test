@@ -4,6 +4,13 @@
     "devDependencies": {
         "@commitlint/cli": "^16.0.1",
         "@commitlint/config-conventional": "^16.0.0",
-        "husky": "^7.0.4"
-    }
+        "husky": "^7.0.4",
+        "lint-staged": "^12.1.5"
+    },
+    "scripts": {
+        "prepare": "husky install"
+      },
+      "lint-staged": {
+        "*.cs": "dotnet format ./WorkerService1/WorkerService1.sln --include"
+      }
 }
